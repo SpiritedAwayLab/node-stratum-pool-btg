@@ -1,42 +1,42 @@
 {
-    "name": "stratum-pool",
-    "version": "0.1.6",
-    "description": "High performance Stratum poolserver in Node.js",
-    "keywords": [
-        "stratum",
-        "mining",
-        "pool",
-        "server",
-        "poolserver",
-        "bitcoin",
-        "litecoin",
-        "scrypt"
-    ],
-    "homepage": "https://github.com/joshuayabut/node-stratum-pool",
-    "bugs": {
-        "url": "https://github.com/joshuayabut/node-stratum-pool/issues"
-    },
-    "license": "GPL-2.0",
-    "author": "Matthew Little",
-    "contributors": [
-        "vekexasia",
-        "TheSeven"
-    ],
-    "main": "lib/index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/joshuayabut/node-stratum-pool.git"
-    },
-    "dependencies": {
-        "async": "*",
-        "base58-native": "*",
-        "bignum": "*",
-        "bgoldjs-lib": "*",
-        "equihashverify": "git+https://github.com/BitcoinGold-mining/equihashverify.git",
-        "merkle-bitcoin": "^1.0.2",
-        "promise": "*"
-    },
-    "engines": {
-        "node": ">=7"
-    }
+  "name": "stratum-pool",
+  "version": "0.1.6",
+  "description": "High performance Stratum poolserver in Node.js",
+  "keywords": [
+    "stratum",
+    "mining",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "litecoin",
+    "scrypt"
+  ],
+  "homepage": "https://github.com/joshuayabut/node-stratum-pool",
+  "bugs": {
+    "url": "https://github.com/joshuayabut/node-stratum-pool/issues"
+  },
+  "license": "GPL-2.0",
+  "author": "Matthew Little",
+  "contributors": [
+    "vekexasia",
+    "TheSeven"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpiritedAwayLab/node-stratum-pool-btg.git"
+  },
+  "dependencies": {
+    "async": "*",
+    "base58-native": "*",
+    "bignum": "*",
+    "bgoldjs-lib": "*",
+    "equihashverify": "git+https://github.com/SpiritedAwayLab/btg-equihashverify.git",
+    "merkle-bitcoin": "^1.0.2",
+    "promise": "*"
+  },
+  "engines": {
+    "node": ">=7"
+  }
 }

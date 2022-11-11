@@ -1,0 +1,22 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1668165936717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1668165976897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n     \"async\": \"*\",\r\n     \"base58-native\": \"*\",\r\n     \"bignum\": \"*\",\r\n     \"bgoldjs-lib\": \"*\",\r\n-    \"equihashverify\": \"git+https://github.com/BitcoinGold-mining/equihashverify.git\",\r\n+    \"equihashverify\": \"git+https://github.com/SpiritedAwayLab/btg-equihashverify.git\",\r\n     \"merkle-bitcoin\": \"^1.0.2\",\r\n     \"promise\": \"*\"\r\n   },\r\n   \"engines\": {\r\n"
+                }
+            ],
+            "date": 1668165936717,
+            "name": "Commit-0",
+            "content": "{\r\n  \"name\": \"stratum-pool\",\r\n  \"version\": \"0.1.6\",\r\n  \"description\": \"High performance Stratum poolserver in Node.js\",\r\n  \"keywords\": [\r\n    \"stratum\",\r\n    \"mining\",\r\n    \"pool\",\r\n    \"server\",\r\n    \"poolserver\",\r\n    \"bitcoin\",\r\n    \"litecoin\",\r\n    \"scrypt\"\r\n  ],\r\n  \"homepage\": \"https://github.com/joshuayabut/node-stratum-pool\",\r\n  \"bugs\": {\r\n    \"url\": \"https://github.com/joshuayabut/node-stratum-pool/issues\"\r\n  },\r\n  \"license\": \"GPL-2.0\",\r\n  \"author\": \"Matthew Little\",\r\n  \"contributors\": [\r\n    \"vekexasia\",\r\n    \"TheSeven\"\r\n  ],\r\n  \"main\": \"lib/index.js\",\r\n  \"repository\": {\r\n    \"type\": \"git\",\r\n    \"url\": \"https://github.com/SpiritedAwayLab/node-stratum-pool-btg.git\"\r\n  },\r\n  \"dependencies\": {\r\n    \"async\": \"*\",\r\n    \"base58-native\": \"*\",\r\n    \"bignum\": \"*\",\r\n    \"bgoldjs-lib\": \"*\",\r\n    \"equihashverify\": \"git+https://github.com/BitcoinGold-mining/equihashverify.git\",\r\n    \"merkle-bitcoin\": \"^1.0.2\",\r\n    \"promise\": \"*\"\r\n  },\r\n  \"engines\": {\r\n    \"node\": \">=7\"\r\n  }\r\n}\r\n"
+        }
+    ]
+}
