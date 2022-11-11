@@ -12,9 +12,9 @@
     "litecoin",
     "scrypt"
   ],
-  "homepage": "https://github.com/joshuayabut/node-stratum-pool",
+  "homepage": "https://github.com/SpiritedAwayLab/node-stratum-pool-btg",
   "bugs": {
-    "url": "https://github.com/joshuayabut/node-stratum-pool/issues"
+    "url": "https://github.com/SpiritedAwayLab/node-stratum-pool-btg/issues"
   },
   "license": "GPL-2.0",
   "author": "Matthew Little",
@@ -28,15 +28,15 @@
     "url": "https://github.com/SpiritedAwayLab/node-stratum-pool-btg.git"
   },
   "dependencies": {
-    "async": "*",
-    "base58-native": "*",
-    "bignum": "*",
+    "async": "^2.6.1",
+    "base58-native": "^0.1.4",
+    "bignum": "^0.13.0",
     "bgoldjs-lib": "*",
-    "equihashverify": "git+https://github.com/SpiritedAwayLab/equihashverify.git",
+    "equihashverify": "git+https://github.com/SpiritedAwayLab/btg-equihashverify.git",
     "merkle-bitcoin": "^1.0.2",
-    "promise": "*"
+    "promise": "^8.0.1"
   },
   "engines": {
-    "node": ">=7"
+    "node": ">=8.11"
   }
 }

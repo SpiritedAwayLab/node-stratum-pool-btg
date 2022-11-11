@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1668165936717,
@@ -24,6 +24,14 @@
                 {
                     "date": 1668167407810,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n     \"async\": \"*\",\r\n     \"base58-native\": \"*\",\r\n     \"bignum\": \"*\",\r\n     \"bgoldjs-lib\": \"*\",\r\n-    \"equihashverify\": \"git+https://github.com/SpiritedAwayLab/btg-equihashverify.git\",\r\n+    \"equihashverify\": \"git+https://github.com/SpiritedAwayLab/equihashverify.git\",\r\n     \"merkle-bitcoin\": \"^1.0.2\",\r\n     \"promise\": \"*\"\r\n   },\r\n   \"engines\": {\r\n"
+                },
+                {
+                    "date": 1668167774266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,11 +11,11 @@\n     \"bitcoin\",\r\n     \"litecoin\",\r\n     \"scrypt\"\r\n   ],\r\n-  \"homepage\": \"https://github.com/joshuayabut/node-stratum-pool\",\r\n+  \"homepage\": \"https://github.com/SpiritedAwayLab/node-stratum-pool-btg\",\r\n   \"bugs\": {\r\n-    \"url\": \"https://github.com/joshuayabut/node-stratum-pool/issues\"\r\n+    \"url\": \"https://github.com/SpiritedAwayLab/node-stratum-pool-btg/issues\"\r\n   },\r\n   \"license\": \"GPL-2.0\",\r\n   \"author\": \"Matthew Little\",\r\n   \"contributors\": [\r\n@@ -31,9 +31,9 @@\n     \"async\": \"*\",\r\n     \"base58-native\": \"*\",\r\n     \"bignum\": \"*\",\r\n     \"bgoldjs-lib\": \"*\",\r\n-    \"equihashverify\": \"git+https://github.com/SpiritedAwayLab/equihashverify.git\",\r\n+    \"equihashverify\": \"git+https://github.com/SpiritedAwayLab/btg-equihashverify.git\",\r\n     \"merkle-bitcoin\": \"^1.0.2\",\r\n     \"promise\": \"*\"\r\n   },\r\n   \"engines\": {\r\n"
+                },
+                {
+                    "date": 1668167812597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,16 +27,16 @@\n     \"type\": \"git\",\r\n     \"url\": \"https://github.com/SpiritedAwayLab/node-stratum-pool-btg.git\"\r\n   },\r\n   \"dependencies\": {\r\n-    \"async\": \"*\",\r\n-    \"base58-native\": \"*\",\r\n-    \"bignum\": \"*\",\r\n+    \"async\": \"^2.6.1\",\r\n+    \"base58-native\": \"^0.1.4\",\r\n+    \"bignum\": \"^0.13.0\",\r\n     \"bgoldjs-lib\": \"*\",\r\n     \"equihashverify\": \"git+https://github.com/SpiritedAwayLab/btg-equihashverify.git\",\r\n     \"merkle-bitcoin\": \"^1.0.2\",\r\n-    \"promise\": \"*\"\r\n+    \"promise\": \"^8.0.1\"\r\n   },\r\n   \"engines\": {\r\n-    \"node\": \">=7\"\r\n+    \"node\": \">=8.11\"\r\n   }\r\n }\r\n"
                 }
             ],
             "date": 1668165936717,
