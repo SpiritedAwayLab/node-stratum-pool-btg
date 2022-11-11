@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1668165936717,
@@ -16,6 +16,10 @@
                 {
                     "date": 1668166718672,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n     \"async\": \"*\",\r\n     \"base58-native\": \"*\",\r\n     \"bignum\": \"*\",\r\n     \"bgoldjs-lib\": \"*\",\r\n-    \"equihashverify\": \"git+https://github.com/SpiritedAwayLab/btg-equihashverify.git\",\r\n+    \"equihashverify\": \"git+https://github.com/SpiritedAwayLab/btg-equihashverify11.git\",\r\n     \"merkle-bitcoin\": \"^1.0.2\",\r\n     \"promise\": \"*\"\r\n   },\r\n   \"engines\": {\r\n"
+                },
+                {
+                    "date": 1668167092511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n     \"async\": \"*\",\r\n     \"base58-native\": \"*\",\r\n     \"bignum\": \"*\",\r\n     \"bgoldjs-lib\": \"*\",\r\n-    \"equihashverify\": \"git+https://github.com/SpiritedAwayLab/btg-equihashverify11.git\",\r\n+    \"equihashverify\": \"git+https://github.com/SpiritedAwayLab/btg-equihashverify.git\",\r\n     \"merkle-bitcoin\": \"^1.0.2\",\r\n     \"promise\": \"*\"\r\n   },\r\n   \"engines\": {\r\n"
                 }
             ],
             "date": 1668165936717,
